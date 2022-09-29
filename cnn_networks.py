@@ -127,29 +127,3 @@ print("Accuracy: {}%".format((correct/total)*100))
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-# ### Short answer
-# 
-# 1\. How does the CNN compare in accuracy with yesterday's logistic regression and MLP models? How about training time?
-
-# `[CNN has a greater accuracy as compared to MLP and linear regression models.The order of accuracy is as follows: CNN(98.8%) > Linear regression(90.13%) > MLP(82.8%). However, CNN takes the most training time out of all these models.The order of Training time is as follows: CNN > MLP >Linear regression]`
-
-# 2\. How many trainable parameters are there in the CNN you built for this assignment?
-# 
-# *Note: The total of trainable parameters counts each element in a tensor. For example, a weight matrix that is 10x5 has 50 trainable parameters.*
-
-# `[5376234 is total no. of trainable parameters in our CNN model]`
-
-# 3\. When would you use a CNN versus a logistic regression model or an MLP?
-
-# `[We will use a CNN model over MLP or Linear regression model when we are dealing with image data,as CNN model gives very accurate results in case of image data analysis. We can also use CNN models when we are dealing with complicated classification problems which are beyond the capacity of a MLP or Linear regression model.]`

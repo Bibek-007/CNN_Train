@@ -19,13 +19,10 @@
 # convolution (64 3x3 filters) -> nonlinearity (ReLU) -> (2x2 max pool) -> flatten ->
 # fully connected (256 hidden units) -> nonlinearity (ReLU) ->  
 # fully connected (10 hidden units) -> softmax 
-# 
-# Note: The CNN model might take a while to train. Depending on your machine, you might expect this to take up to half an hour. If you see your validation performance start to plateau, you can kill the training.
-
-# In[4]:
 
 
-### YOUR CODE HERE ###
+
+###
 
 import torch
 import torch.nn as nn
